@@ -24,7 +24,16 @@ The background image uses the random image URL from [Unsplash](https://source.un
 The code for this extension is available under an MIT License. It was written as a proof of concept for the 4321 style of to-do lists, and so the code itself will be revisited at a later date for some much-needed tidying.
 
 # Changelog
-## v1 - August 2021
+
+## v1.1 - September 2021
+Minor style changes, include updates to fonts and background colours.
+- Dark background colour changed to #102027
+- Light background color changed to #EFEBE9
+- Font style changed throughout to Montserrat
+
+Reorganising and tidying of code, including restructuring of Javascript files and style sheets.
+
+## v1.0 - August 2021
 The first commit of the 4321 extension. This has all the basic functionality in place.
 ### In the pipeline
 Future versions will allow the user to change the background from either the random unSplash image (at present), or a colour of their own choosing. At the moment the colour choices are limited to preset options.

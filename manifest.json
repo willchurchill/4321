@@ -1,12 +1,12 @@
 {
     "name": "4321 Todo Extension",
     "description": "Simple task tracker for managing anxiety. Extension by Will Churchill.",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "icons": { 
-        "16": "images/icon16.png",
-        "48": "images/icon48.png",
-       "128": "images/icon128.png"
+        "16": "assets/images/icon16.png",
+        "48": "assets/images/icon48.png",
+       "128": "assets/images/icon128.png"
     },
     "background": {
         "service_worker": "background.js"
