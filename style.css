@@ -1,0 +1,113 @@
+#list-3,#list-2,#list-1,#list-0{
+    display: none;
+}
+#current-view{
+    display: none;
+}
+#previous-view{
+    display: none;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#next-view{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+body,.site-container{
+    padding:0; margin:0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#site-container{
+    display: grid;
+    grid-template-columns: 1fr 100px 500px 100px 1fr; /*  ||||||  */
+    grid-template-rows: 1fr 1fr 1fr 50px;
+    align-items: center;
+
+    /* background-image: url("https://source.unsplash.com/random/1024x768"); */
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-title{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 2em;
+    color:white;
+    -webkit-text-stroke: 2px black;
+}
+
+#list-4,#list-3,#list-2,#list-1,#list-0{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.list-container{
+    text-align: center;
+}
+
+.listinput{
+    width:90%;
+    font-size: 2em;
+    line-height: 2.5em;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.chevron{
+    width: 80px;
+    cursor: pointer;
+}
+
+.tick{
+    height: 2em;
+    margin-left:-20px;
+    float:right;
+    cursor: pointer;
+}
+
+#settings-container{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+.settings-link{
+    padding:0 10px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    color:white;
+}
+.settings-link:hover{
+    cursor: pointer;
+}
+
+#more-info{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    text-align: center;
+    font-size: 1.5em;
+    color:white;
+}
+
+a{color:white;}
+
+#reset-link:hover{
+    cursor: pointer;
+}
+
+.congratulations-message{
+    font-size: 1.5em;
+    color:white;
+}
+
+#background-options{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: center;
+}
