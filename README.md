@@ -23,6 +23,8 @@ The background image uses the random image URL from [Unsplash](https://source.un
 
 The code for this extension is available under an MIT License. It was written as a proof of concept for the 4321 style of to-do lists, and so the code itself will be revisited at a later date for some much-needed tidying.
 
+You can view the Privacy Policy for the extension [here](https://github.com/willchurchill/4321/blob/main/privacy-policy.md).
+
 # Changelog
 
 ## v1.1 - September 2021
