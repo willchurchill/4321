@@ -31,8 +31,6 @@ This privacy policy applies to actions of users of the 4321 Todo Chrome Extensio
 
 The extension does not collect any personal information. You are not required to register any details to start using the extension. 
 
-4321 also does not collect any user information, or make use of Google Analytics to track usage.
-
 The only data stored is the items that you add to the todo list. These are stored using Google's [chrome.storage API](https://developer.chrome.com/docs/extensions/reference/storage/). The makers of 4321 do not have access to this data. Where this data is synced to your Google account, this is done over a secure connection using the API.
 
 ## Where is data stored
