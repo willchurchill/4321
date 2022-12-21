@@ -43,7 +43,7 @@ We reserve the right to change this policy as we deem necessary, alongside the f
 
 ## Contact
 
-Any questions or concerns can be directed to [will@copyandcode.co.uk](mailto:will@willrc.co.uk)
+Any questions or concerns can be directed to [will@willrc.co.uk](mailto:will@willrc.co.uk)
 
 You can also view the Privacy Policy for the extension [here](https://github.com/willchurchill/4321/blob/main/privacy-policy.md).
 
